@@ -1,0 +1,11 @@
+/*
+ * SVG Admin Styles
+ * CSS styles for adjusting SVG display in WordPress backend
+ */
+
+/*adjust SVG images when displayed inside media library column view*/
+table.media .column-title .media-icon img[src*='.svg']{
+	width: 100%;
+	height: auto;
+}
+

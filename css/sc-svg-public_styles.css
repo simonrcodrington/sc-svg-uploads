@@ -1,0 +1,6 @@
+
+/*sets all SVG's to be responsive. displaying at full width*/
+img[src*='.svg']{
+	width: 100%;
+	height: auto;
+}
